@@ -3,7 +3,7 @@ Contributors: SocialIntents
 Tags: feedback, user feedback, userecho, uservoice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
 Requires at least: 3.6
 Tested up to: 3.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,10 +20,10 @@ Get Instant Feedback and Quickly Resolve Support Questions.  Private, Unbiased, 
 
 
 == Description ==
-User Feedback and Ratings helps you gauge how you're doing as a blog or business. Quickly add a Feedback tab to any page that allows you to configure custom questions and ratings as well as targeting rules.  Instead of a separate page or sidebar, our Feedback system brings 
-extra attention by popping up a modal feedback form.  Add your css, your text and your style.  
+Listen to your customers!  User Feedback and Ratings by Social Intents helps you engage your visitors early and often. Quickly learn about problems, solicit new ideas, and get an overall view of customer satisfaction.  Our Feedback widget gives you private, unbiased, and instant user feedback.  Instead of a separate page or sidebar, our Feedback widget brings 
+extra attention by popping up a modal feedback form.  Add your css, your text and your style.   
 
-Engage website visitors, find and address bugs, and keep a pulse on how satisfied your customers are.  It's a must have for any wordpress site!
+It's a must have for any wordpress site!
 
 
 To configure the user feedback plugin, you need a Social Intents account.  Already have an accout?  Great!  Otherwise, sign up for a free trial at <a href="http://www.socialintents.com">www.socialintents.com</a>.
