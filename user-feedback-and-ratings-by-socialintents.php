@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: User Feedback and Ratings by Social Intents
+Plugin Name: Feedback and Ratings by Social Intents
 Plugin URI: http://www.socialintents.com
 Description: Get Instant Feedback, Engage Visitors, and Quickly Resolve Support Questions.  Private, Unbiased, and Customizable Visitor Feedback Platform.
 Version: 1.0.2
