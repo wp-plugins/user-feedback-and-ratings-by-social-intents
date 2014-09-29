@@ -2,8 +2,8 @@
 /*
 Plugin Name: Feedback and Ratings by Social Intents
 Plugin URI: http://www.socialintents.com
-Description: Get Instant Feedback, Engage Visitors, and Quickly Resolve Support Questions.  Private, Unbiased, and Customizable Visitor Feedback Platform.
-Version: 1.0.2
+Description: Get Instant Feedback, Engage Visitors, and Quickly Resolve Support Questions.  Private, Unbiased, and Customizable Visitor Feedback.
+Version: 1.0.4
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
@@ -29,21 +29,23 @@ function siuf_insert() {
         echo("<div id=\"social-intents-tab\" class=\"social-intents-tab\" style=\"visibility:hidden;\"></div>\n");
         echo("<div id=\"socialintents-offer\"></div>\n");
         echo("<script type=\"text/javascript\">\n");
-        echo("var socialintents_vars ={\n");
+        echo("var socialintents_vars_feedback ={\n");
         echo("'widgetId':'".get_option('siuf_widgetID')."',\n");
         echo("'tabLocation':'".get_option('siuf_tab_placement')."',\n");
         echo("'tabText':'".get_option('siuf_tab_text')."',\n");
         echo("'type':'feedback',\n");
         echo("'tabColor':'".get_option('siuf_tab_color')."',\n");
-        echo("'popupHeight':'365px', \n");
-	echo("'popupWidth':'560px', \n");
+        echo("'popupHeight':'".get_option('siuf_popup_height')."',\n");
+echo("'popupWidth':'".get_option('siuf_popup_width')."',\n");
+echo("'roundedCorners':'".get_option('siuf_rounded_corners')."',\n");
+echo("'backgroundImg':'".get_option('siuf_background_img')."',\n");
         echo("'tabWidth':'240px',\n");
         echo("'marginRight':'60px', \n");
         echo("'headerTitle':'".get_option('siuf_header_text')."'\n");
         echo("};\n");
         echo("(function() {function socialintents(){\n");
         echo("    var siJsHost = ((\"https:\" === document.location.protocol) ? \"https://\" : \"http://\");\n");
-        echo("    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = siJsHost+'www.socialintents.com/api/socialintents.js';\n");
+        echo("    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = siJsHost+'www.socialintents.com/api/feedback/socialintents.js';\n");
         echo("    var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};\n");
         echo("if (window.attachEvent)window.attachEvent('onload', socialintents);else window.addEventListener('load', socialintents, false);})();\n");
         echo("</script>\n");
@@ -77,7 +79,7 @@ function siuf_add_settings_page() {
                 <form id="saveSettings" method="post" action="options.php">
                     <p style="text-align:center"><?php wp_nonce_field('update-options') ?>
 			<a href="http://www.socialintents.com/" title="Feedback and Social Widgets that help grow your business">
-			<?php echo '<img src="'.plugins_url( 'socialintents.png' , __FILE__ ).'" height="50" width="200" "/> ';?></a></p>
+			<?php echo '<img src="'.plugins_url( 'socialintents.png' , __FILE__ ).'" height="150"  "/> ';?></a></p>
 
                     <p><label for="siuf_widgetID"><?php printf(__('Enter your Widget Key below to activate the plugin.  If you don\'t have your key but have already signed up, you can <a href=\'http://www.socialintents.com\' target=\'_blank\'>login here</a> to grab your key under your widget --> your code snippet..<br>', $siuf_domain), '<strong><a href="http://www.socialintents.com/" title="', '">', '</a></strong>') ?></label><br />
 			<input type="text" name="siuf_widgetID" id="siuf_widgetID" placeholder="Your Widget Key" value="<?php echo(get_option('siuf_widgetID')) ?>" style="width:100%" />
@@ -111,7 +113,7 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
 		</p><form id='saveDetailSettings' method="post" action="options.php">
 		<?php wp_nonce_field('update-options') ?>
 		<input type="hidden" name="action" value="update" />
-                <input type="hidden" name="page_options" value="siuf_tab_text,siuf_tab_placement,siuf_header_text,siuf_intro_text,siuf_rating_text,siuf_feedback_text,siuf_time_on_page,siuf_tab_color" />
+                <input type="hidden" name="page_options" value="siuf_background_img, siuf_rounded_corners, siuf_popup_width, siuf_popup_height, siuf_tab_text,siuf_tab_placement,siuf_header_text,siuf_intro_text,siuf_rating_text,siuf_feedback_text,siuf_time_on_page,siuf_tab_color" />
 		<table width="100%" >
 		<tr><td width="25%">Tab Text: </td>
 		<td >
@@ -364,6 +366,75 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
 			}
    		?>
 		</td></tr>
+<tr><td>Popup Height: </td>
+		<td>
+		<?php 
+		if(get_option('siuf_popup_height') && get_option('siuf_popup_height') != '') {
+     		?>
+     		<input type="text" name="siuf_popup_height" id="siuf_popup_height" value="<?php echo(get_option('siuf_popup_height')) ?>" style="margin:3px;width:100%;" />
+		<?php 
+			} else {
+   		?>
+		<input type="text" name="siuf_popup_height" id="siuf_popup_height" value="120px" style="margin:3px;width:100%;" placeholder="Height in Pixels - 150px"/>
+		<?php 
+			}
+   		?>
+		</td></tr>
+		<tr><td>Popup Width: </td>
+		<td>
+		<?php 
+		if(get_option('siuf_popup_width') && get_option('siuf_popup_width') != '') {
+     		?>
+     		<input type="text" name="siuf_popup_width" id="siuf_popup_width" value="<?php echo(get_option('siuf_popup_width')) ?>" style="margin:3px;width:100%;" />
+		<?php 
+			} else {
+   		?>
+		<input type="text" name="siuf_popup_width" id="siuf_popup_width" value="500px" style="margin:3px;width:100%;" placeholder="Width in Pixels - 560px"/>
+		<?php 
+			}
+   		?>
+		</td></tr>
+		<tr><td>Background Image: </td>
+		<td>
+		<?php 
+		if(get_option('siuf_background_img') && get_option('siuf_background_img') != '') {
+     		?>
+     		<input type="text" name="siuf_background_img" id="siuf_background_img" value="<?php echo(get_option('siuf_background_img')) ?>" style="margin:3px;width:100%;" />
+		<?php 
+			} else {
+   		?>
+		<input type="text" name="siuf_background_img" id="siuf_background_img" value="" style="margin:3px;width:100%;" placeholder="Absolute URL:  https://www.yourdomain.com/bg.jpg"/>
+		<?php 
+			}
+   		?>
+		</td></tr>
+		<tr><td>Rounded Corners: </td>
+		<td>
+		<?php 
+		if(get_option('siuf_rounded_corners') && get_option('siuf_rounded_corners') == 'yes') {
+     		?>
+     		<select id="siuf_rounded_corners" name="siuf_rounded_corners">
+			<option value="yes" selected>Yes</option>
+			<option value="no">No</option>
+		</select> 	
+    		<?php 
+			} else if(get_option('siuf_rounded_corners') == 'no') {
+   		?>
+		<select id="siuf_rounded_corners" name="siuf_rounded_corners">
+			<option value="yes">Yes</option>
+			<option value="no" selected>No</option>
+		</select>
+		<?php 
+			} else{
+   		?>
+		<select id="siuf_rounded_corners" name="siuf_rounded_corners">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+		<?php 
+			} 
+   		?>
+		</tr></td>
 
 		<tr><td></td><td>
 		<input id='siuf_inputSaveSettings' type="button" value="<?php _e('Save Settings', $siuf_domain) ?>" class="button-primary" /> 
@@ -395,14 +466,19 @@ $(document).on("click", "#siuf_inputSaveSettings", function () {
 
 var siuf_wid= $('#siuf_widgetID').val();
 var siuf_tt= $('#siuf_tab_text').val();
-var siuf_ht= $('#siuf_header_text').val();
-var siuf_intro= $('#siuf_intro_text').val();
+var siuf_ht= encodeURIComponent($('#siuf_header_text').val());
+var siuf_intro= encodeURIComponent($('#siuf_intro_text').val());
 var siuf_rating= $('#siuf_rating_text').val();
-var siuf_fb= $('#siuf_feedback_text').val();
+var siuf_fb= encodeURIComponent($('#siuf_feedback_text').val());
+
+var siuf_ww= $('#siuf_popup_width').val();
+var siuf_wh= $('#siuf_popup_height').val();
+var siuf_rc= $('#siuf_rounded_corners').val();
+var siuf_bi= encodeURIComponent($('#siuf_background_img').val());
 
 var siuf_tp= $('#siuf_tab_placement').val();
 var siuf_top= $('#siuf_time_on_page').val();
-var url = 'https://www.socialintents.com/json/jsonSaveFeedbackSettings.jsp?tt='+siuf_tt+'&ht='+siuf_ht+'&wid='+siuf_wid+'&intro='+siuf_intro+'&rate='+siuf_rating+'&fb='+siuf_fb
+var url = 'https://www.socialintents.com/json/jsonSaveFeedbackSettings.jsp?tt='+siuf_tt+'&ht='+siuf_ht+'&wid='+siuf_wid+'&intro='+siuf_intro+'&rate='+siuf_rating+'&fb='+siuf_fb+'&wh='+siuf_wh+'&ww='+siuf_ww+'&rc='+siuf_rc+'&bi='+siuf_bi
 +'&tp='+siuf_tp+'&top='+siuf_top+'&callback=?';
 sessionStorage.removeItem("si_settings");
 $.ajax({

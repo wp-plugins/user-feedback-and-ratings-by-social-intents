@@ -2,12 +2,12 @@
 Contributors: SocialIntents
 Tags: feedback, user feedback, userecho, uservoice, user voice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
 Requires at least: 3.6
-Tested up to: 3.9
-Stable tag: 1.0.3
+Tested up to: 4.0
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Feeback is the easiest way to engage visitors, identify bugs, and gather ideas. All feedback is private.
+Feeback is the easiest way to gather visitor feedback, identify bugs, and collect ideas. All feedback is private.
 == Changelog ==
 
 = 1.0.0 =
@@ -23,13 +23,15 @@ Feeback is the easiest way to engage visitors, identify bugs, and gather ideas. 
 = 1.0.3 =
 * Satisfaction surveys
 
+= 1.0.4 =
+* 4.0 Support
+
 
 == Description ==
-Feedback and Ratings by Social Intents helps you engage your visitors early and often with an easy to set up modal contact form. Quickly learn about problems, solicit new ideas, and get an overall view of customer satisfaction.  Our Feedback widget gives you private, unbiased, and instant user feedback.  Instead of a separate page or sidebar, Feedback brings 
-extra attention by popping up a modal feedback form.  Add your css, your text and your style.   
+Feedback and Surveys by Social Intents helps you engage your visitors early and often with an easy to set up popover contact form. Quickly learn about problems, gather new ideas, and get an overall view of customer satisfaction.  Our Feedback widget gives you private, unbiased, and instant user feedback.  Instead of a separate page or sidebar, Feedback brings 
+extra attention by popping up an in-page feedback form.  Add your css, your text and your style.   
 
 It's a must have for any wordpress site!
-
 
 To configure the user feedback plugin, you need a Social Intents account.  Already have an accout?  Great!  Otherwise, sign up for a free trial at <a href="http://www.socialintents.com">www.socialintents.com</a>.
 
@@ -60,7 +62,7 @@ Need help getting set up?  We can help!  Contact us at [www.socialintents.com](h
 
 **Other Social Intents Widgets**
 
-We also have Email List Building, Social Sharing, Shopping Cart Saver, and Social Offers widgets available that can be used to grow your audience and boost your sales.
+We also have Email List Building, Live Chat, Social Sharing, Shopping Cart Saver, and Social Offers widgets available that can be used to grow your audience and boost your sales.
 
 
 To learn more about Social Intents visit us at [socialintents.com](http://www.socialintents.com/).
