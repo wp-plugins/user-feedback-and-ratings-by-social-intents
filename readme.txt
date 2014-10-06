@@ -1,13 +1,13 @@
-=== User Feedback and Ratings by Social Intents ===
+=== Modal Feedback and Modal Contact Form ===
 Contributors: SocialIntents
-Tags: feedback, user feedback, userecho, uservoice, user voice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
+Tags: feedback, user feedback, modal contact form, contact form, userecho, uservoice, user voice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
 Requires at least: 3.6
 Tested up to: 4.0
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Feeback is the easiest way to gather visitor feedback, identify bugs, and collect ideas. All feedback is private.
+Modal Feeback and Modal Contact form is the easiest way to gather feedback, identify bugs, and collect ideas in your WordPress site.
 == Changelog ==
 
 = 1.0.0 =
@@ -26,20 +26,23 @@ Feeback is the easiest way to gather visitor feedback, identify bugs, and collec
 = 1.0.4 =
 * 4.0 Support
 
+= 1.0.5 =
+* Fix on provisioning and setup
+
 
 == Description ==
-Feedback and Surveys by Social Intents helps you engage your visitors early and often with an easy to set up popover contact form. Quickly learn about problems, gather new ideas, and get an overall view of customer satisfaction.  Our Feedback widget gives you private, unbiased, and instant user feedback.  Instead of a separate page or sidebar, Feedback brings 
-extra attention by popping up an in-page feedback form.  Add your css, your text and your style.   
+Modal Feedback and Modal Contact Form by Social Intents helps you engage your visitors early and often with an easy to set up popover contact form. Quickly learn about problems, gather new ideas, and get an overall view of customer satisfaction.  Our Feedback widget gives you private, unbiased, and instant user feedback.  Instead of a separate page or sidebar, Feedback brings 
+extra attention by popping up an in-page feedback form.  Add your css, your text and your style. Best of all - it won't slow your site down.  
 
 It's a must have for any wordpress site!
 
-To configure the user feedback plugin, you need a Social Intents account.  Already have an accout?  Great!  Otherwise, sign up for a free trial at <a href="http://www.socialintents.com">www.socialintents.com</a>.
+To configure the modal feedback plugin, you need a Social Intents account.  Already have an accout?  Great!  Otherwise, sign up for a free trial at <a href="http://www.socialintents.com">www.socialintents.com</a>.
 
 Social Intents offers a free 14 day premium trial.  
 
 **Getting Started with User Feedback and Ratings**
 
-Step 1:  Login to WordPress Admin and search for the plugin 'User Feedback and Ratings by Social Intents' and install it.
+Step 1:  Login to WordPress Admin and search for the plugin 'Modal Feedback and Modal Contact Form by Social Intents' and install it.
  
 Step 2:  Register for a Free Trial Account right from the plugin or at our website.
 
@@ -47,16 +50,12 @@ Need help getting set up?  We can help!  Contact us at [www.socialintents.com](h
 
 
 
-**Why choose User Feeback and Ratings by Social Intents**
+**Why choose Modal Feeback and Modal Contact Form by Social Intents**
 
 * Private and Unbiased Feedback - not skewed by competitors posting on public boards
-
 * Quickly and Effectively Gather Realtime Website Feedback
-
 * Find and Address Bugs
-
 * Target specific pages or website visitors
-
 * Customize the widget look and feel with custom CSS, logos, and messages
 
 
@@ -83,7 +82,7 @@ To learn more about Social Intents visit us at [socialintents.com](http://www.so
 
 == Screenshots ==
 
-1. User Feedback and Ratings Settings
+1. Modal Feedback and Modal Contact Form Settings
 2. Example User Feedback Popup
 2. Social Intents Dashboard
 3. Social Intents Overview
