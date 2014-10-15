@@ -1,13 +1,14 @@
-=== Modal Feedback and Modal Contact Form ===
+=== Feedback and Modal Contact Form ===
 Contributors: SocialIntents
-Tags: feedback, user feedback, modal contact form, contact form, userecho, uservoice, user voice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
+Tags: feedback widget, feedback plugin, wordpress feedback, modal feedback, feedback form, feedback, user feedback, modal contact form, contact form, userecho, uservoice, user voice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
 Requires at least: 3.6
 Tested up to: 4.0
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Modal Feeback and Modal Contact form is the easiest way to gather feedback, identify bugs, and collect ideas in your WordPress site.
+Feeback and Modal Contact Form is the easiest way to gather feedback, identify bugs, and collect ideas from website visitors.  30 Second Setup!
+
 == Changelog ==
 
 = 1.0.0 =
@@ -29,10 +30,13 @@ Modal Feeback and Modal Contact form is the easiest way to gather feedback, iden
 = 1.0.5 =
 * Fix on provisioning and setup
 
+= 1.0.6 =
+* Bug Fixes
+
 
 == Description ==
 Modal Feedback and Modal Contact Form by Social Intents helps you engage your visitors early and often with an easy to set up popover contact form. Quickly learn about problems, gather new ideas, and get an overall view of customer satisfaction.  Our Feedback widget gives you private, unbiased, and instant user feedback.  Instead of a separate page or sidebar, Feedback brings 
-extra attention by popping up an in-page feedback form.  Add your css, your text and your style. Best of all - it won't slow your site down.  
+extra attention by popping up an in-page feedback form.  Customize targeting rules, add your css and your logo. Best of all - it won't slow your site down.  
 
 It's a must have for any wordpress site!
 
@@ -42,7 +46,7 @@ Social Intents offers a free 14 day premium trial.
 
 **Getting Started with User Feedback and Ratings**
 
-Step 1:  Login to WordPress Admin and search for the plugin 'Modal Feedback and Modal Contact Form by Social Intents' and install it.
+Step 1:  Login to WordPress Admin and search for the plugin 'Feedback and Modal Contact Form by Social Intents' and install it.
  
 Step 2:  Register for a Free Trial Account right from the plugin or at our website.
 
@@ -56,6 +60,7 @@ Need help getting set up?  We can help!  Contact us at [www.socialintents.com](h
 * Quickly and Effectively Gather Realtime Website Feedback
 * Find and Address Bugs
 * Target specific pages or website visitors
+* Proactive Popup
 * Customize the widget look and feel with custom CSS, logos, and messages
 
 
