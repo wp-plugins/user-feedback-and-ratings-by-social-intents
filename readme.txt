@@ -1,9 +1,9 @@
-=== Feedback and Modal Contact Form ===
+=== Feedback Lightbox Form ===
 Contributors: SocialIntents
 Tags: feedback widget, feedback plugin, wordpress feedback, modal feedback, feedback form, feedback, user feedback, modal contact form, contact form, userecho, uservoice, user voice, getsatisfaction, get satisfaction, visitor feedback, ratings, surveys, survey, user survey, user ratings, contact, form, contact form, ajax, email, email form, page, social plugin, wordpress, plugin, admin, widget, sidebar, admin, widget, aweber, popover, popup, share, sharing, webform
 Requires at least: 3.6
 Tested up to: 4.0
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,7 @@ Feeback and Modal Contact Form is the easiest way to gather feedback, identify b
 = 1.0.5 =
 * Fix on provisioning and setup
 
-= 1.0.6 =
+= 1.0.7 =
 * Bug Fixes
 
 

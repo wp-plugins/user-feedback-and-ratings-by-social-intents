@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Feedback and Modal Contact Form by Social Intents
+Plugin Name: Feedback Lightbox by Social Intents
 Plugin URI: http://www.socialintents.com
 Description: Gather Instant Feedback, Engage Visitors, and Quickly Resolve Support Questions.  Private, Unbiased, and Customizable Visitor Feedback.
-Version: 1.0.6
+Version: 1.0.7
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
