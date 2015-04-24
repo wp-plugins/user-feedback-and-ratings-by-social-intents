@@ -3,7 +3,7 @@
 Plugin Name: Feedback Lightbox by Social Intents
 Plugin URI: http://www.socialintents.com
 Description: Gather Instant Feedback, Engage Visitors, and Quickly Resolve Support Questions.  Private, Unbiased, and Customizable Visitor Feedback.
-Version: 1.0.7
+Version: 1.0.8
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
