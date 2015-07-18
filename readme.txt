@@ -1,6 +1,6 @@
 === Feedback Lightbox Form ===
 Contributors: SocialIntents
-Tags: feedback widget, feedback plugin, wordpress feedback, feedback form, feedback, contact form, survey form, lightbox, survey
+Tags: feedback widget, lightbox, survey widget, feedback plugin, wordpress feedback, feedback form, feedback, contact form, survey form, lightbox, survey
 Requires at least: 3.6
 Tested up to: 4.2
 Stable tag: 1.0.8
